@@ -1,0 +1,31 @@
+body {
+    background-color:#497f54;
+
+    header {
+        height:calc(100vh/3);
+        width:100vw;
+        display:grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    main {
+    height: calc(100vh/3);
+    width:100vw;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer {
+    height:calc(100vh/3);
+    width:100vw;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+    section {
+        border:1px dotted white;
+    }
+}

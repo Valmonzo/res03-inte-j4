@@ -1,0 +1,29 @@
+body {
+  background-color: #497f54;
+}
+body header {
+  height: 33.3333333333vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+}
+body main {
+  height: 33.3333333333vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+body footer {
+  height: 33.3333333333vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+body section {
+  border: 1px dotted white;
+}
+
+/*# sourceMappingURL=exo2Sass.css.map */

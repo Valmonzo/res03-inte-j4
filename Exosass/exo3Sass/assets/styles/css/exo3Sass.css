@@ -1,0 +1,44 @@
+body {
+  background-color: #497f54;
+}
+body * {
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+}
+body header {
+  height: 33.3333333333vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+body header section:nth-of-type(2) {
+  background-color: #3a62ee;
+}
+body main {
+  height: 33.3333333333vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+body main section:first-of-type {
+  background-color: #89010c;
+}
+body footer {
+  height: 33.3333333333vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+body footer section:last-of-type {
+  background-color: #fcda2a;
+}
+body section {
+  display: grid;
+  border-left: 1px dotted white;
+  border-right: 1px dotted white;
+}
+
+/*# sourceMappingURL=exo3Sass.css.map */
