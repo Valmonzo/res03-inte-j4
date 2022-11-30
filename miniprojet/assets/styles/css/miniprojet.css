@@ -1,0 +1,41 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+body header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100vw;
+  height: 8vh;
+  margin-left: 7vw;
+  position: fixed;
+}
+body header nav {
+  padding-top: 2vh;
+}
+body header nav ul li {
+  display: inline-block;
+  padding: 0vh 2vh;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+body header button {
+  width: 20%;
+  height: 30%;
+  margin: 3vh 2vw;
+}
+body main section {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+}
+body main section h2 {
+  text-align: center;
+  font-size: 3.5em;
+  width: 50vw;
+}
+
+/*# sourceMappingURL=miniprojet.css.map */
