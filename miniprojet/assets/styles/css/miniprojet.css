@@ -3,19 +3,25 @@ body {
 }
 body header {
   display: grid;
-  grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr 1fr;
-  width: 100vw;
-  height: 8vh;
-  margin-left: 7vw;
   position: fixed;
+  width: 100vw;
+  height: 13vh;
+}
+body header h1 {
+  align-self: center;
+  justify-self: center;
 }
 body header nav {
-  padding-top: 2vh;
+  align-self: center;
+  justify-self: center;
+}
+body header nav ul {
+  list-style-type: none;
 }
 body header nav ul li {
   display: inline-block;
-  padding: 0vh 2vh;
+  margin: 0vh 1vw;
 }
 body header nav ul li a {
   text-decoration: none;
@@ -25,17 +31,21 @@ body header nav ul li a {
 body header button {
   width: 20%;
   height: 30%;
-  margin: 3vh 2vw;
+  align-self: center;
+  justify-self: center;
 }
-body main section {
-  display: flex;
-  align-item: center;
-  justify-content: center;
+body main {
+  padding-top: 18vh;
 }
-body main section h2 {
+body main .toptitle {
+  display: grid;
+}
+body main .toptitle h2 {
   text-align: center;
   font-size: 3.5em;
-  width: 50vw;
+  width: 80vw;
+  align-self: center;
+  justify-self: center;
 }
 
 /*# sourceMappingURL=miniprojet.css.map */
